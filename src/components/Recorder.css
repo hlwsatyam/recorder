@@ -1,0 +1,47 @@
+.stop-btn {
+    height: 5rem;
+    background-color: #c63434;
+    border-radius: 50%;
+    width: 5rem;
+    border: 8px solid black
+}
+
+.start-btn {
+    height: 5rem;
+    background-color: #26c3fc;
+    border-radius: 50%;
+    width: 5rem;
+    border: 8px solid black
+}
+
+
+body {
+    background-color: #fff68e;
+    width: 100vw;
+    height: 100vh;
+}
+
+.btn {
+    margin: 1rem;
+}
+
+footer {
+    bottom: 0;
+    position: absolute;
+    padding: 1rem;
+    text-align: center;
+    width: 100%;
+    font-weight: 700;
+
+    background-color: #b8ffde;
+}
+
+@media only screen and (min-width: 900px) {
+    .text {
+        margin-top: 5rem;
+    }
+}
+
+.mic {
+    display: none;
+}
